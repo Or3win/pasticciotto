@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.210
+FROM jenkins/jenkins:2.211
 MAINTAINER Or3win
 #get rid of admin password setup
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
